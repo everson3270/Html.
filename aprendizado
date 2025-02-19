@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="prog2.js">
+
+    </script>
+</body>
+</html>
+
+var nm = prompt('Digite o nome');
+console.log('nome digitado' +nm);
+document.write('nome digitado' +nm);
+
+
+/*var v = prompt('Digite um numero');
+if(v >=50){
+    document.write(' o numero' +v+ 'e maior ou igual a 50');
+}else{
+    document.write('o numero' +v+ ' e menor que 50');
+}*/
+var v = Number(prompt('Digite um numero'));
+for(i=0; i<= v; i++){
+    if(i % 2 ==0)
+    document.write("<p style='background-color: purple;'>"+i+".</p>");
+    else{
+document.write("<p style='background-color: pink;'>"+i+"</p>");
+    }
+   // document.write('Valor atual' +i+'<br>');
+}
+
+=============================================================================================
+var valor1 = Number(prompt('Digite um valor;'));
+var vlaor2 = Number(prompt('Digite um valor:'));
+document.write(`soma = ${valor1 + valor2}`);
+
